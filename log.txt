@@ -1,0 +1,44 @@
+time="2022-09-21T15:59:48+05:30" level=info msg="Info message"
+time="2022-09-21T15:59:48+05:30" level=warning msg="Warn message"
+time="2022-09-21T15:59:48+05:30" level=error msg="Error message"
+time="2022-09-21T15:59:48+05:30" level=fatal msg="Fatal message"
+ 2022-09-21 16:01:58 [  INFO]  : - Info message
+ 2022-09-21 16:01:58 [  WARNING]  : - Warn message
+ 2022-09-21 16:01:58 [  ERROR]  : - Error message
+ 2022-09-21 16:01:58 [  FATAL]  : - Fatal message
+[37mTRAC[0m[0000] Trace level                                  
+[37mDEBU[0m[0000] Debug level                                  
+[36mINFO[0m[0000] Information  level                           
+[33mWARN[0m[0000] Warning level                                
+[31mERRO[0m[0000] Error level                                  
+[31mFATA[0m[0000] Trace level                                  
+[37mTRAC[0m[0000] Trace level                                  
+[37mDEBU[0m[0000] Debug level                                  
+[36mINFO[0m[0000] Information  level                           
+[33mWARN[0m[0000] Warning level                                
+[31mERRO[0m[0000] Error level                                  
+[31mFATA[0m[0000] Trace level                                  
+time="2022-09-21T16:18:11+05:30" level=trace msg="Trace level"
+time="2022-09-21T16:18:11+05:30" level=debug msg="Debug level"
+time="2022-09-21T16:18:11+05:30" level=info msg="Information  level"
+time="2022-09-21T16:18:11+05:30" level=warning msg="Warning level"
+time="2022-09-21T16:18:11+05:30" level=error msg="Error level"
+time="2022-09-21T16:18:11+05:30" level=fatal msg="Trace level"
+ 2022-09-21 16:19:30      [  TRACE    ]         : - Trace level
+ 2022-09-21 16:19:30      [  DEBUG    ]         : - Debug level
+ 2022-09-21 16:19:30      [  INFO    ]         : - Information  level
+ 2022-09-21 16:19:30      [  WARNING    ]         : - Warning level
+ 2022-09-21 16:19:30      [  ERROR    ]         : - Error level
+ 2022-09-21 16:19:30      [  FATAL    ]         : - Trace level
+[37mTRAC[0m[0000] Trace level                                  
+[37mDEBU[0m[0000] Debug level                                  
+[36mINFO[0m[0000] Information  level                           
+[33mWARN[0m[0000] Warning level                                
+[31mERRO[0m[0000] Error level                                  
+[31mFATA[0m[0000] Trace level                                  
+ 2022-09-21 16:23:36      [  TRACE    ]         : - Trace level
+ 2022-09-21 16:23:36      [  DEBUG    ]         : - Debug level
+ 2022-09-21 16:23:36      [  INFO    ]         : - Information  level
+ 2022-09-21 16:23:36      [  WARNING    ]         : - Warning level
+ 2022-09-21 16:23:36      [  ERROR    ]         : - Error level
+ 2022-09-21 16:23:36      [  FATAL    ]         : - Trace level
