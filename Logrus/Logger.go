@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/sirupsen/logrus"
 	easy "github.com/t-tomalak/logrus-easy-formatter"
+	"log"
 	"os"
 )
 
@@ -56,14 +57,14 @@ type Adapter interface {
 	Debug(string, ...interface{})
 }
 
-//type StdLoggerAdapter struct{}
-//
-//func (l StdLoggerAdapter) Debugf(fmt string, args ...interface{}) {
-//	log.Printf(fmt, args...)
-//}
-//func (l StdLoggerAdapter) Debug(fmt string, args ...interface{}) {
-//	log.Printf(fmt, args...)
-//}
+type StdLoggerAdapter struct{}
+
+func (l StdLoggerAdapter) Debugf(fmt string, args ...interface{}) {
+	log.Printf(fmt, args...)
+}
+func (l StdLoggerAdapter) Debug(fmt string, args ...interface{}) {
+	log.Printf(fmt, args...)
+}
 
 type LogrusAdapter struct {
 }
